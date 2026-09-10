@@ -1,0 +1,22 @@
+# Build & Output directories
+bin/
+obj/
+[Bb]in/
+[Ob]bj/
+
+# Visual Studio / VS Code
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Power Platform CLI & PAC output
+*.tmp
+*.bak
+.pac/
+
+# OS generated files
+.DS_Store
+Thumbs.db
