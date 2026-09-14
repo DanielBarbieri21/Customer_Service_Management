@@ -85,7 +85,22 @@
       <RootComponent type="1" schemaName="db_chamadodesuporte" behavior="0" />
       <RootComponent type="1" schemaName="db_contato" behavior="0" />
       <RootComponent type="1" schemaName="db_solicitacaodeatendimento" behavior="0" />
+      <RootComponent type="62" schemaName="db_CustomerServiceHub" behavior="0" />
+      <RootComponent type="80" schemaName="db_CustomerServiceHub" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="db_CustomerServiceHub" displayName="Customer Service Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.20)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=db_CustomerServiceHub,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="db_CustomerServiceHub" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
