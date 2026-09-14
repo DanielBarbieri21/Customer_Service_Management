@@ -85,6 +85,7 @@
       <RootComponent type="1" schemaName="db_chamadodesuporte" behavior="0" />
       <RootComponent type="1" schemaName="db_contato" behavior="0" />
       <RootComponent type="1" schemaName="db_solicitacaodeatendimento" behavior="0" />
+      <RootComponent type="29" id="{a198cde3-5cb0-f111-aaac-70a8a5a985b4}" behavior="0" />
       <RootComponent type="62" schemaName="db_CustomerServiceHub" behavior="0" />
       <RootComponent type="80" schemaName="db_CustomerServiceHub" behavior="0" />
     </RootComponents>

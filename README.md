@@ -95,10 +95,13 @@ c:\PowerApps\
 │       ├── CustomerServiceManagement.cdsproj
 │       └── src/
 │           ├── Other/                  # Solution.xml, Customizations.xml
-│           └── Entities/               # Metadados das tabelas (XML)
-│               ├── db_contato/
-│               ├── db_solicitacaodeatendimento/
-│               └── db_chamadodesuporte/
+│           ├── Entities/               # Metadados das tabelas (XML)
+│           │   ├── db_contato/
+│           │   ├── db_solicitacaodeatendimento/
+│           │   └── db_chamadodesuporte/
+│           ├── AppModules/             # Definição do Model-Driven App
+│           ├── AppModuleSiteMaps/      # Mapa do site e menu de navegação
+│           └── Workflows/              # Definição dos fluxos Power Automate (JSON/XML)
 ├── src/                                # Código-fonte de extensibilidade
 │   └── plugins/                        # Projetos C# .NET de Plugins Dataverse
 └── tools/                              # Scripts utilitários de provisionamento e carga
@@ -142,9 +145,9 @@ pac solution import --path solutions/CustomerServiceManagement_deploy.zip
 
 - [x] **Fase 1:** Configuração do ambiente local, instalação da CLI `pac`, extensão VS Code e autenticação.
 - [x] **Fase 2:** Criação da Solution `CustomerServiceManagement`, Publisher `Daniel Barbieri` (`db_`) e tabelas no Dataverse.
-- [ ] **Fase 3:** Construção do **Model-Driven App** (*Customer Service Hub*), views e formulários customizados.
-- [ ] **Fase 4:** Desenvolvimento de Plugin C# .NET para regra de negócio (geração e validação de protocolos).
-- [ ] **Fase 5:** Automação de processos com Power Automate (notificações e SLA de atendimento).
+- [x] **Fase 3:** Construção do **Model-Driven App** (*Customer Service Hub*), views e formulários customizados.
+- [x] **Fase 4:** Desenvolvimento de Plugin C# .NET para regra de negócio (geração e validação de protocolos).
+- [x] **Fase 5:** Automação de processos com Power Automate (notificação automática de novos chamados).
 - [ ] **Fase 6:** Pipeline de ALM com GitHub Actions.
 
 ---
