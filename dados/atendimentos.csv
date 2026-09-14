@@ -1,0 +1,7 @@
+﻿Titulo;Protocolo;Cliente;Prioridade;Status;Canal;DataAbertura;Descricao
+Erro de sincronizacao no portal;ATD-2026-0001;Ana Beatriz Souza;Alta;Em andamento;Portal;2026-09-10 09:30;Usuario relata falha ao sincronizar cadastros com a base principal.
+Solicitacao de novo usuario de acesso;ATD-2026-0002;Carlos Eduardo Lima;Baixa;Resolvido;E-mail;2026-09-10 10:15;Criacao de usuario de leitura para a equipe financeira.
+Lentidao intermitente no fechamento;ATD-2026-0003;Mariana Costa Ribeiro;Critica;Aberto;Telefone;2026-09-11 14:00;Relato de tempo de resposta acima de 15 segundos nas operacoes.
+Duvida sobre faturamento do plano;ATD-2026-0004;Fernando Albuquerque;Media;Aguardando cliente;Chat;2026-09-12 11:20;Solicitado espelho detalhado da fatura de agosto.
+Falha na exportacao de relatorios PDF;ATD-2026-0005;Juliana Martins Rocha;Media;Em andamento;Portal;2026-09-13 16:45;Botao de download nao gera o PDF com dados consolidados.
+Revisao de permissoes de seguranca;ATD-2026-0006;Patricia Mendes Duarte;Alta;Aberto;E-mail;2026-09-14 08:30;Necessidade de limitar visualizacao de dados sensiveis.

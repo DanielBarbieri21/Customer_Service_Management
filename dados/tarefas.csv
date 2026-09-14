@@ -1,0 +1,6 @@
+﻿Assunto;Atendimento;Status;Previsao;Descricao
+Analisar logs de integracao no servidor;ATD-2026-0001;Em andamento;2026-09-15;Coletar telemetria e identificar timeout da API.
+Enviar credenciais provisorias;ATD-2026-0002;Concluida;2026-09-10;Acesso gerado e enviado para o e-mail cadastrado.
+Testar capacidade do banco e indices;ATD-2026-0003;Pendente;2026-09-16;Identificar queries de fechamento com alto consumo de CPU.
+Validar modelo de geracao de PDF;ATD-2026-0005;Em andamento;2026-09-17;Verificar biblioteca de renderizacao de relatorios.
+Mapear papeis e perfis da equipe;ATD-2026-0006;Pendente;2026-09-18;Definir matriz de permissoes com o cliente.

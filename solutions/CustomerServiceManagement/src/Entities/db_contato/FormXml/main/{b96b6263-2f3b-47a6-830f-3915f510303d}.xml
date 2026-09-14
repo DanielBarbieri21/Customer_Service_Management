@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b96b6263-2f3b-47a6-830f-3915f510303d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{84A0183A-7D97-4D4C-8FC3-B59869801CF2}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{DB5208F1-C6BA-4994-A3B7-FEB30ADF4693}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{DA80DC33-9EDA-44DD-A8B3-E54EB6F12D3A}">
+                        <labels>
+                          <label description="Nome" languagecode="1046" />
+                        </labels>
+                        <control id="db_nomecompleto" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="db_nomecompleto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{E831EC5F-FD22-4081-9AE3-2621DFD06271}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f2726906-a949-4b4b-9567-1791ff23136d}">
+                        <labels>
+                          <label description="Email" languagecode="1046" />
+                        </labels>
+                        <control id="db_enderecodeemail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_enderecodeemail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43c4a1b6-2d14-4508-b97b-ee9482199c21}">
+                        <labels>
+                          <label description="Telefone" languagecode="1046" />
+                        </labels>
+                        <control id="db_numerodetelefone" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_numerodetelefone" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c873919d-0e75-4d12-b51f-1a6cdcff0ec5}">
+                        <labels>
+                          <label description="CPF" languagecode="1046" />
+                        </labels>
+                        <control id="db_cpf" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_cpf" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc6dcff4-e43e-475d-9339-899170e55d7e}">
+                        <labels>
+                          <label description="Empresa" languagecode="1046" />
+                        </labels>
+                        <control id="db_nomedaempresa" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_nomedaempresa" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26e0dcee-6143-490f-8022-72d533d7c45e}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                        </labels>
+                        <control id="db_statusdocontato" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="db_statusdocontato" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52bc768a-55c6-4bdf-8350-0c800f8a8e05}">
+                        <labels>
+                          <label description="DataNascimento" languagecode="1046" />
+                        </labels>
+                        <control id="db_datadenascimento" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="db_datadenascimento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e573d722-1534-43d7-98ad-73a23a77531d}">
+                        <labels>
+                          <label description="Observacoes" languagecode="1046" />
+                        </labels>
+                        <control id="db_observacoes" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_observacoes" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

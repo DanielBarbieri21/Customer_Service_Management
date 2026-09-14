@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{257e2071-b98b-4f2e-9135-70b32362760e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="db_nomecompleto" select="1" icon="1" preview="1">
+        <row name="result" id="db_contatoid">
+          <cell name="db_nomecompleto" width="300" />
+          <cell name="db_enderecodeemail" width="150" />
+          <cell name="db_numerodetelefone" width="150" />
+          <cell name="db_cpf" width="150" />
+          <cell name="db_nomedaempresa" width="150" />
+          <cell name="db_statusdocontato" width="150" />
+          <cell name="db_datadenascimento" width="150" />
+          <cell name="db_observacoes" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="db_contato">
+          <attribute name="db_contatoid" />
+          <attribute name="db_nomecompleto" />
+          <attribute name="createdon" />
+          <order attribute="db_nomecompleto" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="db_enderecodeemail" />
+          <attribute name="db_numerodetelefone" />
+          <attribute name="db_cpf" />
+          <attribute name="db_nomedaempresa" />
+          <attribute name="db_statusdocontato" />
+          <attribute name="db_datadenascimento" />
+          <attribute name="db_observacoes" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contato Ativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

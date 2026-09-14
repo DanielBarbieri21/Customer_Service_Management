@@ -1,0 +1,8 @@
+Nome,Email,Telefone,CPF,Empresa,Status,DataNascimento,Observacoes
+Ana Beatriz Souza,ana.souza@techcorp.com.br,(11) 98765-4321,123.456.789-01,TechCorp Solucoes,Ativo,1988-04-15,"Cliente VIP, plano Enterprise"
+Carlos Eduardo Lima,carlos.lima@inovare.com.br,(21) 97654-3210,234.567.890-12,Inovare Logistica,Ativo,1992-08-22,Contato preferencial por e-mail
+Mariana Costa Ribeiro,mariana.costa@globalmed.com,(31) 96543-2109,345.678.901-23,GlobalMed Saude,Ativo,1985-11-30,Foco em suporte a sistemas criticos
+Fernando Albuquerque,fernando@albuquerqueadv.com,(41) 95432-1098,456.789.012-34,Albuquerque Advocacia,Prospect,1979-02-18,Interesse em migracao de plano
+Juliana Martins Rocha,juliana.martins@varejomax.com,(51) 94321-0987,567.890.123-45,VarejoMax Brasil,Ativo,1995-07-09,Abertura frequente de chamados operacionais
+Roberto Silveira Santos,roberto@silveiraeng.com.br,(61) 93210-9876,678.901.234-56,Silveira Engenharia,Inativo,1975-12-03,Contrato suspenso temporariamente
+Patricia Mendes Duarte,patricia@fintechpay.com,(11) 92109-8765,789.012.345-67,FintechPay Brasil,Ativo,1990-09-25,Cliente estrategico de alta prioridade

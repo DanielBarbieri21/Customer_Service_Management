@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{79e1cdf1-b49a-4743-9598-1618e1a7be25}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{B22F1D49-5CF8-485E-BD05-C98D1099B5AF}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{391776AF-0582-45DA-A552-2FC292C4466A}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{303DE3B3-B8A3-4208-97C1-6DA3EE944FCD}">
+                        <labels>
+                          <label description="Assunto" languagecode="1046" />
+                        </labels>
+                        <control id="db_assunto" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="db_assunto" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{AC43612A-DC66-4146-9F2E-A97F3D033F2B}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e49f3318-20d9-4a5e-98ca-90847b9fb919}">
+                        <labels>
+                          <label description="Atendimento" languagecode="1046" />
+                        </labels>
+                        <control id="db_numerodoatendimento" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_numerodoatendimento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20fc00f3-9e44-4619-bc7b-421aa11e767f}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                        </labels>
+                        <control id="db_statusdoatendimento" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="db_statusdoatendimento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21ec3082-449c-4e34-b0a7-3547e3aba379}">
+                        <labels>
+                          <label description="Previsao" languagecode="1046" />
+                        </labels>
+                        <control id="db_datadeprevisao" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="db_datadeprevisao" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37b4734d-4281-497c-8a6e-893ef4c02212}">
+                        <labels>
+                          <label description="Descricao" languagecode="1046" />
+                        </labels>
+                        <control id="db_descricaodetalhada" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_descricaodetalhada" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

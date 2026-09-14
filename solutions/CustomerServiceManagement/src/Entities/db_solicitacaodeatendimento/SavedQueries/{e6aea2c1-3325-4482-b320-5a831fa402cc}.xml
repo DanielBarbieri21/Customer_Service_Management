@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e6aea2c1-3325-4482-b320-5a831fa402cc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="db_assunto" select="1" icon="1" preview="1">
+        <row name="result" id="db_solicitacaodeatendimentoid">
+          <cell name="db_assunto" width="300" />
+          <cell name="db_numerodoatendimento" width="150" />
+          <cell name="db_statusdoatendimento" width="150" />
+          <cell name="db_datadeprevisao" width="150" />
+          <cell name="db_descricaodetalhada" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="db_solicitacaodeatendimento">
+          <attribute name="db_solicitacaodeatendimentoid" />
+          <attribute name="db_assunto" />
+          <attribute name="createdon" />
+          <order attribute="db_assunto" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="db_numerodoatendimento" />
+          <attribute name="db_statusdoatendimento" />
+          <attribute name="db_datadeprevisao" />
+          <attribute name="db_descricaodetalhada" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Solicitação de Atendimento Ativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4a66f5e1-cf14-406b-b840-5581af76f1bd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="db_assunto" select="1" icon="1" preview="1">
+        <row name="result" id="db_solicitacaodeatendimentoid">
+          <cell name="db_assunto" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="db_solicitacaodeatendimento">
+          <attribute name="db_solicitacaodeatendimentoid" />
+          <attribute name="db_assunto" />
+          <attribute name="createdon" />
+          <order attribute="db_assunto" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Solicitação de Atendimento Inativos(as)" languagecode="1046" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{267202a2-4c1b-40c0-8aeb-f8eb16d9e2c0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{3C4D31F4-BCE0-4FC5-8537-C83BA957EED2}" IsUserDefined="1">
+          <labels>
+            <label description="Geral" languagecode="1046" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6DC9239A-4CE9-429E-AE7E-7A1EFEE910C8}">
+                  <labels>
+                    <label description="Geral" languagecode="1046" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9E5369FE-CDEC-4CF8-8320-24662AF90F50}">
+                        <labels>
+                          <label description="Titulo" languagecode="1046" />
+                        </labels>
+                        <control id="db_titulodochamado" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="db_titulodochamado" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6C70693C-333C-48A4-9D25-7720983D380F}">
+                        <labels>
+                          <label description="Proprietário" languagecode="1046" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{558d3395-9d69-4719-8bc2-6f62a07f59d2}">
+                        <labels>
+                          <label description="Protocolo" languagecode="1046" />
+                        </labels>
+                        <control id="db_numerodoprotocolo" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_numerodoprotocolo" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{958274f6-c080-41a8-96d2-fc069b98b643}">
+                        <labels>
+                          <label description="Cliente" languagecode="1046" />
+                        </labels>
+                        <control id="db_nomedocliente" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_nomedocliente" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73ae7f5c-e8ce-44a0-9a1a-401115d9094d}">
+                        <labels>
+                          <label description="Prioridade" languagecode="1046" />
+                        </labels>
+                        <control id="db_prioridadedochamado" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="db_prioridadedochamado" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5f4df71d-ff0d-4f06-9807-1538dc4cab65}">
+                        <labels>
+                          <label description="Status" languagecode="1046" />
+                        </labels>
+                        <control id="db_statusdochamado" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="db_statusdochamado" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{784a75c6-7b76-447c-8b88-6e4481a89a34}">
+                        <labels>
+                          <label description="Canal" languagecode="1046" />
+                        </labels>
+                        <control id="db_canaldeatendimento" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="db_canaldeatendimento" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9179e62-c13d-4e3c-9ce5-22e2b7ccda5d}">
+                        <labels>
+                          <label description="DataAbertura" languagecode="1046" />
+                        </labels>
+                        <control id="db_datadeabertura" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="db_datadeabertura" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a285c549-2759-41ab-9d92-0ded1ee7ead3}">
+                        <labels>
+                          <label description="Descricao" languagecode="1046" />
+                        </labels>
+                        <control id="db_descricaodoproblema" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="db_descricaodoproblema" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informações" languagecode="1046" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Um formulário para esta entidade." languagecode="1046" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_db_chamadodesuporte" />
+  <EntityRelationship Name="business_unit_db_contato" />
+  <EntityRelationship Name="business_unit_db_solicitacaodeatendimento" />
+  <EntityRelationship Name="lk_db_chamadodesuporte_createdby" />
+  <EntityRelationship Name="lk_db_chamadodesuporte_modifiedby" />
+  <EntityRelationship Name="lk_db_contato_createdby" />
+  <EntityRelationship Name="lk_db_contato_modifiedby" />
+  <EntityRelationship Name="lk_db_solicitacaodeatendimento_createdby" />
+  <EntityRelationship Name="lk_db_solicitacaodeatendimento_modifiedby" />
+  <EntityRelationship Name="owner_db_chamadodesuporte" />
+  <EntityRelationship Name="owner_db_contato" />
+  <EntityRelationship Name="owner_db_solicitacaodeatendimento" />
+  <EntityRelationship Name="team_db_chamadodesuporte" />
+  <EntityRelationship Name="team_db_contato" />
+  <EntityRelationship Name="team_db_solicitacaodeatendimento" />
+  <EntityRelationship Name="user_db_chamadodesuporte" />
+  <EntityRelationship Name="user_db_contato" />
+  <EntityRelationship Name="user_db_solicitacaodeatendimento" />
+</EntityRelationships>
